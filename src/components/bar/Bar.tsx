@@ -1,14 +1,15 @@
 import Hamburger from "../hamburger/Hamburger";
+import { actions } from "../../data/buttonList";
 
 function Bar() {
 
   function createButtons() {
     return (
-      <div style={{ display: "flex", gap: "8px" }}>
-        <button>Button 1</button>
-        <button>Button 2</button>
-        <button>Button 3</button>
-      </div>
+      actions.map((action) => (
+        <button key={action.label} disabled={action.disabled} hidden={action.hidden}>
+          {action.label}
+        </button>
+      ))
     );
   }
 
