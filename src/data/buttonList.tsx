@@ -1,0 +1,22 @@
+export const actions = [
+  { label: "Button 1", disabled: false, hidden: false },
+  { label: "Button 2", disabled: true, hidden: false },
+  { label: "Button 3", disabled: false, hidden: false },
+  { label: "Button 4", disabled: false, hidden: true },
+  { label: "Button 5", disabled: false, hidden: false },
+  { label: "Button 6", disabled: false, hidden: false },
+  { label: "Button 7", disabled: false, hidden: false },
+  { label: "Button 8", disabled: false, hidden: false },
+  { label: "Button 9", disabled: false, hidden: false },
+  { label: "Button 10", disabled: false, hidden: false },
+  { label: "Button 11", disabled: false, hidden: false },
+  { label: "Button 12", disabled: false, hidden: false },
+  { label: "Button 13", disabled: false, hidden: false },
+  { label: "Button 14", disabled: false, hidden: false },
+  { label: "Button 15", disabled: false, hidden: false },
+  { label: "Button 16", disabled: false, hidden: false },
+  { label: "Button 17", disabled: false, hidden: false },
+  { label: "Button 18", disabled: false, hidden: false },
+  { label: "Button 19", disabled: false, hidden: false },
+  { label: "Button 20", disabled: false, hidden: false }
+];
